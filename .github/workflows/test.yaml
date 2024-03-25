@@ -1,0 +1,8 @@
+- name: Save state 1
+  run: echo "::save-state name=state1::value1"
+
+- name: Set output
+  run: echo "::set-output name=output1::value3"
+
+- name: Save state 2
+  run: echo "::save-state name=state2::value2"
